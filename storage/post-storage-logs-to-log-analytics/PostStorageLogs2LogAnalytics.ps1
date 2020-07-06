@@ -25,21 +25,21 @@
 #Login-AzAccount
 
 # Resource group name for the storage acccount
-$ResourceGroup = "{ReplaceWithYourResourceGroup}"
+$ResourceGroup = "prudhviresource"
 
 # Storage account name
-$StorageAccountName = "{ReplaceWithYourStorageAccountName}"
+$StorageAccountName = "prudhvistorage"
 
 # Container name for analytics logs
 $ContainerName = "`$logs"
 
 # Replace with your Workspace Id
 # Find in: Azure Portal > Log Analytics > {Your workspace} > Advanced Settings > Connected Sources > Windows Servers > WORKSPACE ID
-$CustomerId = "{ReplaceWithYourLogAnalyticsWorkspaceId}"  
+$CustomerId = "0dc6fb13-6835-4f8e-b5d2-dffa810c18ef"  
 
 # Replace with your Primary Key
 # Find in: Azure Portal > Log Analytics > {Your workspace} > Advanced Settings > Connected Sources > Windows Servers > PRIMARY KEY
-$SharedKey = "{ReplaceWithYourLogAnalyticsWorkspacePrimaryKey}"
+$SharedKey = "2/Fye0OkBYB9pVeiyNv73Gb4OxpUIAe+Xq53+/uSNd3PGiR9k3UKRLplYcfJ7Lo/EG66y0T5b0Pyq7ohVb3fJA=="
 
 # Specify the name of the record type that you'll be creating
 # After logs are sent to the workspace, you will use "MyStorageLogs1_CL" as stream to query.
